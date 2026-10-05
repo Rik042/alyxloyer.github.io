@@ -16,12 +16,17 @@
   --color-secondary: #705ea1;
   --color-bg-primary: linear-gradient(
       to bottom right,
-      rgba(14, 18, 57, 1) 14%,
-      rgba(89, 73, 131, 1) 52%,
-      rgba(23, 78, 166, 1) 88%,
-      rgba(23, 78, 166, 1) 100%
+      #0e1239 14%,
+      #3f386d 52%,
+      #1c285b 88%,
+      #1c285b 100%
   );
-  --color-bg-secondary: var(--color-black);
+  --color-bg-secondary: linear-gradient(
+      to bottom,
+      rgba(41, 62, 125, 0) 0%,
+      rgba(21, 32, 80, 0.6) 60%,
+      rgba(14, 18, 57, 1) 100%
+  );
 }
 
 /* ==========================================================================
@@ -1493,7 +1498,7 @@ a.disabled {
    footer / 
    ========================================================================== */
 .footer {
-  background-color: var(--color-bg-secondary);
+  background: var(--color-bg-secondary);
   padding: 60px 0;
   color: var(--color-white);
 }
