@@ -474,6 +474,7 @@ a.disabled {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 var(--spacing-md);
 }
 @media (width <= 768px) {
   .wrapper {
